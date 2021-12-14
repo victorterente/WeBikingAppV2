@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="281dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClickSignUp"
+        android:text="Sign Up"
+        android:textColor="#FDFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignIn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="198dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="34dp"
+        android:text="WeBiking"
+        android:textColor="#FAF8F8"
+        android:textSize="45sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/SignIn"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClickSignIn"
+        android:text="Sign In"
+        android:textColor="#FDFCFC"
+        app:layout_constraintBottom_toTopOf="@+id/SignUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

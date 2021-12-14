@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=A4:A1:A2:5C:CE:05:46:F7:9B:5E:FC:01:9A:00:F1:EB:18:1D:23:D3%3Bcom.example.webikingv2
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.webikingv2
+
+    SHA-1 certificate fingerprint:
+    A4:A1:A2:5C:CE:05:46:F7:9B:5E:FC:01:9A:00:F1:EB:18:1D:23:D3
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCaYXRl-YuYG0to4Of83-WU5A0dYj4UzEg</string>
+</resources>
