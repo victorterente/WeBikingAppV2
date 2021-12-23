@@ -3,17 +3,16 @@ package com.example.webikingv2.Downloaders;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import org.json.JSONObject;
+import org.json.JSONArray;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class JSONArrayDownloader extends AsyncTask<String, Void, JSONObject> {
-
+public class JSONArrayDownloader extends AsyncTask<String, Void, JSONArray>{
     @Override
-    protected JSONObject doInBackground(String... urls) {
+    protected JSONArray doInBackground(String... urls) {
         String result = "";
         URL url;
         HttpURLConnection urlConnection = null;
@@ -33,9 +32,9 @@ public class JSONArrayDownloader extends AsyncTask<String, Void, JSONObject> {
             }
 
             Log.e("JSON", result);
-            JSONObject obj = new JSONObject(result);
+            JSONArray arr = new JSONArray(result);
 
-            return obj;
+            return arr;
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -43,5 +42,5 @@ public class JSONArrayDownloader extends AsyncTask<String, Void, JSONObject> {
         }
     }
     @Override
-    protected void onPostExecute(JSONObject jsonObject) { super.onPostExecute(jsonObject);}
+    protected void onPostExecute(JSONArray jsonArray) { super.onPostExecute(jsonArray);}
 }

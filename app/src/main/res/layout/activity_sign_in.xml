@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".SignIn">
+    tools:context=".UI.SignIn">
 
     <ImageView
         android:id="@+id/logo"
@@ -41,14 +41,14 @@
         android:layout_marginTop="142dp"
         android:layout_marginEnd="138dp"
         android:backgroundTint="@color/black"
-        android:onClick="onClickSignIn"
+        android:onClick="onClickLogin"
         android:text="Sign In"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Pass" />
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 
     <EditText
-        android:id="@+id/etemail"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="71dp"
@@ -64,7 +64,7 @@
         tools:text="Email" />
 
     <EditText
-        android:id="@+id/Pass"
+        android:id="@+id/pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="71dp"
@@ -76,21 +76,7 @@
         android:textColor="#FDFCFC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etemail"
+        app:layout_constraintTop_toBottomOf="@+id/email"
         tools:text="Password" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginEnd="160dp"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toStartOf="@+id/logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appnome"
-        app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
-        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

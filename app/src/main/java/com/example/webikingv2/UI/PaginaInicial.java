@@ -1,17 +1,16 @@
-package com.example.webikingv2;
+package com.example.webikingv2.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.webikingv2.R;
+
+public class PaginaInicial extends AppCompatActivity {
 
 
     private static String ip = "ec2-18-202-1-222.eu-west-1.compute.amazonaws.com";// this is the host ip that your data base exists on you can use 10.0.2.2 for local host                                                    found on your pc. use if config for windows to find the ip if the database exists on                                                    your pc
@@ -30,18 +29,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_pagina_inicial);
     }
 
     public void onClickSignUp(View V) {
 
-        Intent intent = new Intent(getApplicationContext(),SignUp.class);
+        Intent intent = new Intent(getApplicationContext(), com.example.webikingv2.UI.SignUp.class);
         startActivity(intent);
     }
 
     public void onClickSignIn(View V) {
 
-        Intent intent = new Intent(getApplicationContext(),SignIn.class);
+        Intent intent = new Intent(getApplicationContext(), com.example.webikingv2.UI.SignIn.class);
         startActivity(intent);
     }
 }

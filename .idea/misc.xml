@@ -5,11 +5,21 @@
       <map>
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_escolha.xml" value="0.2" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_escolher_percurso.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_escolher_percursos.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_fazer_percurso.xml" value="0.264" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_pagina_inicial.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_passeio_cascais.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_passeio_criado.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_passeio_sintra.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_reserva_ciclismo.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_reserva_eletrica.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_reserva_location.xml" value="0.72" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_reserva_montanha.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_reservas.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_sign_in.xml" value="0.1621376811594203" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_sign_up.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/activity_utilizador_info.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/victo/AndroidStudioProjects/WeBikingV2/app/src/main/res/layout/fragment_maps.xml" value="0.152" />
       </map>
     </option>
