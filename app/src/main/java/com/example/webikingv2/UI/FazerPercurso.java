@@ -23,7 +23,7 @@ import java.util.Map;
 
 public class FazerPercurso extends AppCompatActivity {
     private Button criar;
-    private EditText origem;
+    private EditText origem, data;
     private EditText destino;
     private EditText nparticipantes;
     private EditText descricao;
@@ -38,6 +38,14 @@ public class FazerPercurso extends AppCompatActivity {
         nparticipantes = (EditText)findViewById(R.id.nparticipantes);
         descricao = (EditText)  findViewById(R.id.descricao);
         criar = (Button) findViewById(R.id.criar);
+        data = (EditText) findViewById(R.id.data);
+
+
+        origem.setText("Sintra");
+        destino.setText("Montelavar");
+        nparticipantes.setText("7");
+        data.setText("2022-01-11");
+        descricao.setText("Passeio calmo por sintra");
 
         criar.setOnClickListener(new View.OnClickListener() {
 
@@ -64,6 +72,11 @@ public class FazerPercurso extends AppCompatActivity {
                     descricao.setHintTextColor(Color.RED);
                 }
 
+                if (data.getText().toString().isEmpty()){
+                    Toast.makeText(getApplicationContext(), "Favor preencher o campo em vermelho", Toast.LENGTH_SHORT).show();
+                    data.setHintTextColor(Color.RED);
+                }
+
 
                 else {
                     Map<String, String> postData = new HashMap<>();
@@ -72,7 +85,7 @@ public class FazerPercurso extends AppCompatActivity {
                     postData.put("destino", destino.getText().toString());
                     postData.put("organizador", nparticipantes.getText().toString());
                     postData.put("descricao", descricao.getText().toString());
-                    postData.put("data", descricao.getText().toString());
+                    postData.put("data", data.getText().toString());
                     JSONArray arr;
                     PostData task = new PostData(postData);
                     //verificar o link

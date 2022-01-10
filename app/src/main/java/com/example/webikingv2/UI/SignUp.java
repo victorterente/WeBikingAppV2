@@ -53,6 +53,9 @@ public class SignUp extends AppCompatActivity {
         registar = findViewById(R.id.SignUp);
         listGender = new ArrayList<>();
 
+
+
+
         listGender.add("M");
         listGender.add("F");
 
@@ -94,7 +97,7 @@ public class SignUp extends AppCompatActivity {
                         postData.put("genero", "M");
                         postData.put("email", email.getText().toString());
                         postData.put("pass", pass.getText().toString());
-                        postData.put("telemovel", pass.getText().toString());
+                        postData.put("telemovel", telemovel.getText().toString());
                         JSONArray arr;
                         PostData task = new PostData(postData);
                         //verificar o link
@@ -106,7 +109,7 @@ public class SignUp extends AppCompatActivity {
                       //  LoginDataSource login = new LoginDataSource();
                         //login.login(""+email.getText().toString(), ""+pass.getText().toString());
                         Log.e("Id Sign up activity", ""+LoginDataSource.ID);
-                        startActivity(new Intent(SignUp.this, Escolha.class));
+                        startActivity(new Intent(SignUp.this, SignIn.class));
                     }
                 } catch (Exception e) {
                     e.printStackTrace();

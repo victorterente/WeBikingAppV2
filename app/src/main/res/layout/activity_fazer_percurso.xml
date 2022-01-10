@@ -54,9 +54,10 @@
         android:layout_marginTop="49dp"
         android:layout_marginEnd="149dp"
         android:ems="10"
+        android:hint="Origem"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Origem"
+        android:textColorHint="#F4F2F2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
@@ -69,9 +70,10 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="147dp"
         android:ems="10"
+        android:hint="Destino"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Destino"
+        android:textColorHint="#F6F4F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/origemv2" />
@@ -84,9 +86,10 @@
         android:layout_marginTop="27dp"
         android:layout_marginEnd="147dp"
         android:ems="10"
+        android:hint="Descrição"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Descrição"
+        android:textColorHint="#FAF9F9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nparticipantes" />
@@ -99,9 +102,10 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="147dp"
         android:ems="10"
+        android:hint="nParticipantes"
         android:inputType="number"
         android:minHeight="48dp"
-        android:text="Nº de participantes"
+        android:textColorHint="#F4F4F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/destino" />
@@ -122,16 +126,17 @@
         app:layout_constraintTop_toBottomOf="@+id/descricao" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="147dp"
         android:ems="10"
+        android:hint="Data"
         android:inputType="date"
         android:minHeight="48dp"
-        android:text="Data"
+        android:textColorHint="#F8F5F5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descricao" />

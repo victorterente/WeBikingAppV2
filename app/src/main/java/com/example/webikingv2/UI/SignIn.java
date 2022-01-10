@@ -35,6 +35,7 @@ public class SignIn extends AppCompatActivity {
         password = (EditText) findViewById(R.id.pass);
         email = (EditText) findViewById(R.id.email);
         login = (Button) findViewById(R.id.SignIn);
+
         email.setText("ana@sapo.pt");
         password.setText("jhh2jde");
 
